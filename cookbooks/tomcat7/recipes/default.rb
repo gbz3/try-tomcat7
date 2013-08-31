@@ -84,6 +84,6 @@ template "/etc/init.d/tomcat7" do
 end
 
 service "tomcat7" do
-  action [ :enable, :start ]
+  action [ :enable, :restart ]
 end
 
